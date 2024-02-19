@@ -1,7 +1,7 @@
 {
   "replace": true,
   "skill": "archery",
-  "level": 18,
+  "level": 6,
   "item": "minecraft:custom_item",
-  "object": "bowtiers:bow_haunted_bow"
+  "object": "bowtiers:recurve"
 }

@@ -12,8 +12,9 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
-import ru.kingdomrpg.bowtiers.item.bow.TieredBowItem;
+import ru.kingdomrpg.bowtiers.BowManager;
 
+@SuppressWarnings("ConstantValue")
 @Mixin(BowItem.class)
 public class BowItemMixin {
 
@@ -31,18 +32,11 @@ public class BowItemMixin {
                                      boolean bl2,
                                      ArrowItem arrowItem,
                                      PersistentProjectileEntity persistentProjectileEntity) {
+        // If its a default bow, we subtract damage
 
-
-        Object b = (BowItem)(Object) this;
-
-        System.out.println(b);
-        System.out.println(b instanceof TieredBowItem);
-        if(b instanceof TieredBowItem tbi) {
-            System.out.println("Setting base damage if we are tiered bow");
-
-            persistentProjectileEntity.setDamage(
-                    persistentProjectileEntity.getDamage() + tbi.getDamageBonus()
-            );
-        }
+        BowItem b = (BowItem) (Object) this;
+        BowManager.INSTANCE.modifyBowDamage(b, persistentProjectileEntity);
+        BowManager.INSTANCE.modifyProjectileSpeed(b, persistentProjectileEntity);
     }
+
 }

@@ -5,5 +5,8 @@
   "item.bowtiers.strongwood": "Крепкая палка",
   "item.bowtiers.cotton_yarn": "Хлопковая нить",
   "item.bowtiers.wither_yarn": "Увядающая пряжа",
-  "item.bowtiers.phantom_thread": "Фантомная нить"
+  "item.bowtiers.phantom_thread": "Фантомная нить",
+  "lore.bowtiers.cotton_yarn": "Крепкая нить для хорошего лука.",
+  "lore.bowtiers.phantom_thread": "Полупрозрачная нить, будто созданная для тугой тетивы",
+  "lore.bowtiers.wither_yarn": "Эта нить сияет смертью."
 }

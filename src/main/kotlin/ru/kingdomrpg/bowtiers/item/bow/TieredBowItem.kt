@@ -12,6 +12,7 @@ abstract class TieredBowItem(settings: Settings) : BowItem(settings) {
 
     abstract fun getDamageBonus(): Double
 
+    abstract fun getProjectileSpeedMultiplier(): Double
 
 
     val powerDiv

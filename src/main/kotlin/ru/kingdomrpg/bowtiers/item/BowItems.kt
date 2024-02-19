@@ -1,4 +1,4 @@
-package ru.kingdomrpg.bowtiers
+package ru.kingdomrpg.bowtiers.item
 
 import net.minecraft.item.Item
 import net.minecraft.item.Items
