@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
-import ru.kingdomrpg.bowtiers.item.TieredBowItem;
+import ru.kingdomrpg.bowtiers.item.bow.TieredBowItem;
 
 @Mixin(BowItem.class)
 public class BowItemMixin {

@@ -1,0 +1,6 @@
+{
+  "parent": "bowtiers:item/longbow",
+  "textures": {
+    "layer0": "bowtiers:item/longbow_pulling_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bowtiers:item/cotton_yarn"
+  }
+}

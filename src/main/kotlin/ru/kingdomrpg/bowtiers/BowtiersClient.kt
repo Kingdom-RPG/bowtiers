@@ -5,7 +5,7 @@ import net.minecraft.client.item.ModelPredicateProviderRegistry
 import net.minecraft.client.item.UnclampedModelPredicateProvider
 import net.minecraft.util.Identifier
 import org.slf4j.LoggerFactory
-import ru.kingdomrpg.bowtiers.item.TieredBowItem
+import ru.kingdomrpg.bowtiers.item.bow.TieredBowItem
 
 object BowtiersClient : ClientModInitializer {
     private val logger = LoggerFactory.getLogger("bowtiers")
@@ -21,7 +21,7 @@ object BowtiersClient : ClientModInitializer {
 
 
     override fun onInitializeClient() {
-        Items.BOWS.forEach { bow ->
+        BowItems.BOWS.forEach { bow ->
             ModelPredicateProviderRegistry.register(
                 bow,
                 PULL,

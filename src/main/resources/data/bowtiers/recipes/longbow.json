@@ -7,14 +7,14 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:stick"
     },
     "S": {
-      "item": "bowtiers:wither_yarn"
+      "item": "bowtiers:phantom_thread"
     }
   },
   "result": {
-    "item": "bowtiers:bow_haunted_bow",
+    "item": "bowtiers:longbow",
     "count": 1
   }
 }
