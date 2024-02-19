@@ -14,10 +14,10 @@ data class BowtiersConfig(
 ) {
     companion object {
         val default = BowtiersConfig(
-            BowConfiguration(-1.0, 1.0),
+            BowConfiguration(-1.0, .8),
             BowConfiguration(0.0, 1.1),
-            BowConfiguration(1.0, 1.5),
-            BowConfiguration(2.0, 1.8),
+            BowConfiguration(0.5, 1.5),
+            BowConfiguration(1.0, 1.8),
         )
     }
 }
