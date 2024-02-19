@@ -1,0 +1,6 @@
+{
+    "parent": "bowtiers:item/netherbow",
+    "textures": {
+        "layer0": "bowtiers:item/netherbow_pulling_0"
+    }
+}
