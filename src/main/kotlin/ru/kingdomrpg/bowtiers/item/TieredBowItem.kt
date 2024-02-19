@@ -1,7 +1,6 @@
 package ru.kingdomrpg.bowtiers.item
 
 import net.minecraft.item.BowItem
-import net.minecraft.item.ItemStack
 
 
 abstract class TieredBowItem(settings: Settings) : BowItem(settings) {

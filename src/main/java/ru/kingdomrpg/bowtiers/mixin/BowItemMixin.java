@@ -17,7 +17,6 @@ import ru.kingdomrpg.bowtiers.item.TieredBowItem;
 @Mixin(BowItem.class)
 public class BowItemMixin {
 
-
     @Inject(method = "onStoppedUsing", at = @At(value = "INVOKE_ASSIGN", shift = At.Shift.BEFORE, target = "Lnet/minecraft/enchantment/EnchantmentHelper;getLevel(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I", ordinal = 1), locals = LocalCapture.CAPTURE_FAILSOFT)
     private void onStoppedUsingMixin(ItemStack stack,
                                      World world,

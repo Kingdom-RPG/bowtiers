@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "skill": "archery",
+  "level": 15,
+  "item": "minecraft:custom_item",
+  "object": "bowtiers:netherbow"
+}
